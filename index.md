@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permaalink: /
+permalink: /
 ---
 
 <div class="hero-container">
