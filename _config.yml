@@ -16,18 +16,6 @@ theme: minima
 url: "https://astromub.github.io"
 baseurl: "/sample-page"
 
-# --- Navigation (Optional but smart) ---
-# You can list your links here to generate the menu automatically later
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Services
-    url: /services
-  - title: Contact
-    url: /contact.html
-
 # --- Plugins ---
 plugins:
   - jekyll-feed
