@@ -1,8 +1,10 @@
 :root {
-    --primary-color: #ff5e57; /* The Red/Coral color */
-    --text-dark: #1a2b4c;     /* Dark Navy for text */
-    --text-light: #6c757d;    /* Grey for paragraphs */
-    --bg-grey: #eef1f6;       /* The light grey background */
+    /* Define the Variable. Default is Red */
+    --primary-color: #ff5e57; 
+    
+    --text-dark: #1a2b4c;
+    --text-light: #6c757d;
+    --bg-grey: #eef1f6;
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Roboto', sans-serif;
 }
@@ -46,6 +48,7 @@ header.site-header {
     display: inline-block;
     width: 20px;
     height: 20px;
+    /* Use the variable here */
     background-color: var(--primary-color);
     margin-right: 10px;
     transform: rotate(45deg);
@@ -58,7 +61,30 @@ nav a {
     transition: color 0.3s;
 }
 
+/* Use the variable on hover */
 nav a:hover { color: var(--primary-color); }
+
+/* --- THEME SWITCHER (New) --- */
+.theme-switch-container {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    padding-left: 15px;
+    border-left: 1px solid #ddd;
+}
+
+.theme-btn {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.theme-btn:hover { transform: scale(1.2); }
 
 /* --- BUTTONS --- */
 .btn {
@@ -71,9 +97,11 @@ nav a:hover { color: var(--primary-color); }
 }
 
 .btn-primary {
+    /* Use the variable here */
     background-color: var(--primary-color);
     color: white;
-    box-shadow: 0 4px 15px rgba(255, 94, 87, 0.3);
+    /* Neutral shadow to match all colors */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .btn-outline {
@@ -85,14 +113,13 @@ nav a:hover { color: var(--primary-color); }
 
 .btn:hover { transform: translateY(-2px); }
 
-/* --- HERO SECTION (The split layout) --- */
+/* --- HERO SECTION --- */
 .hero-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px 5% 100px 5%;
     background-color: var(--bg-grey);
-    /* Optional: Rounded bottom left styling */
     border-bottom-left-radius: 150px; 
     min-height: 80vh;
 }
@@ -110,11 +137,11 @@ nav a:hover { color: var(--primary-color); }
 .hero-image img {
     max-width: 100%;
     height: auto;
-    /* Makes the image look cut out like the png */
     object-fit: contain; 
 }
 
 .eyebrow {
+    /* Use the variable here */
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -156,7 +183,7 @@ footer {
     max-width: 400px;
 }
 
-/* --- FORM STYLES (For Contact Page) --- */
+/* --- FORM STYLES --- */
 form {
     max-width: 600px;
     margin: 50px auto;
