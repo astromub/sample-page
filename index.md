@@ -7,7 +7,7 @@ permalink: /
 <div class="hero-container">
   <div class="hero-text">
     <span class="eyebrow">Get Every Single Solutions.</span>
-    <h1>HI We Design<br>ASTROMub Limited</h1>
+    <h1>Hi We Design<br>ASTROMub Limited</h1>
     <p class="bio">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
     </p>
