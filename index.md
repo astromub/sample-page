@@ -17,6 +17,6 @@ permalink: /
   </div>
 
   <div class="hero-image">
-    <img src="/images/image_0.png" alt="Haris F. Watson">
+    <img src="images/image_0.png" alt="Haris F. Watson">
   </div>
 </div>
