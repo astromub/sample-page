@@ -1,0 +1,34 @@
+# --- Site Information ---
+title: Portfolio
+author: Haris F. Watson
+email: contact@hariswatson.com
+description: "Professional portfolio of Designer Haris F. Watson."
+
+# --- Build Settings ---
+markdown: kramdown
+theme: minima 
+# (Note: Since we built a custom layout in _layouts/default.html, 
+# Jekyll will use OUR layout instead of the theme's default.)
+
+# --- URL Settings ---
+# If you host on GitHub Pages, 'url' is your domain (e.g. https://username.github.io)
+# 'baseurl' is your project name if not using a custom domain (e.g. /portfolio)
+url: "" 
+baseurl: ""
+
+# --- Navigation (Optional but smart) ---
+# You can list your links here to generate the menu automatically later
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Services
+    url: /services
+  - title: Contact
+    url: /contact.html
+
+# --- Plugins ---
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
