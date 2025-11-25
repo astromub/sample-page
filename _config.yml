@@ -1,7 +1,7 @@
 # --- Site Information ---
-title: Portfolio
-author: Haris F. Watson
-email: contact@hariswatson.com
+title: Sample Page No 1
+author: AstroMub Limited
+email: ""
 description: "Professional portfolio of Designer Haris F. Watson."
 
 # --- Build Settings ---
@@ -13,8 +13,8 @@ theme: minima
 # --- URL Settings ---
 # If you host on GitHub Pages, 'url' is your domain (e.g. https://username.github.io)
 # 'baseurl' is your project name if not using a custom domain (e.g. /portfolio)
-url: "" 
-baseurl: ""
+url: "https://astromub.github.io"
+baseurl: "/sample-page"
 
 # --- Navigation (Optional but smart) ---
 # You can list your links here to generate the menu automatically later
