@@ -13,10 +13,5 @@ theme: minima
 # --- URL Settings ---
 # If you host on GitHub Pages, 'url' is your domain (e.g. https://username.github.io)
 # 'baseurl' is your project name if not using a custom domain (e.g. /portfolio)
-url: "https://astromub.github.io"
 baseurl: "/sample-page"
-
-# --- Plugins ---
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+url: "https://astromub.github.io"
