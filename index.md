@@ -7,7 +7,7 @@ permalink: /
 <div class="hero-container">
   <div class="hero-text">
     <span class="eyebrow">Get Every Single Solutions.</span>
-    <h1>I'm Designer<br>Haris F. Watson</h1>
+    <h1>HI We Design<br>ASTROMub Limited</h1>
     <p class="bio">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
     </p>
@@ -17,6 +17,6 @@ permalink: /
   </div>
 
   <div class="hero-image">
-    <img src="images/image_0.png" alt="Haris F. Watson">
+    <img src="images/image_0.png" alt="AstroMub Limited">
   </div>
 </div>
