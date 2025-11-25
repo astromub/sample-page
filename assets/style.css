@@ -1,0 +1,172 @@
+:root {
+    --primary-color: #ff5e57; /* The Red/Coral color */
+    --text-dark: #1a2b4c;     /* Dark Navy for text */
+    --text-light: #6c757d;    /* Grey for paragraphs */
+    --bg-grey: #eef1f6;       /* The light grey background */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+
+/* --- HEADER --- */
+header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.logo-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    margin-right: 10px;
+    transform: rotate(45deg);
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+nav a:hover { color: var(--primary-color); }
+
+/* --- BUTTONS --- */
+.btn {
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 94, 87, 0.3);
+}
+
+.btn-outline {
+    border: 1px solid #ddd;
+    background: white;
+    color: var(--text-light);
+    margin-left: 10px;
+}
+
+.btn:hover { transform: translateY(-2px); }
+
+/* --- HERO SECTION (The split layout) --- */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 5% 100px 5%;
+    background-color: var(--bg-grey);
+    /* Optional: Rounded bottom left styling */
+    border-bottom-left-radius: 150px; 
+    min-height: 80vh;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    /* Makes the image look cut out like the png */
+    object-fit: contain; 
+}
+
+.eyebrow {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+}
+
+h1 {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+p.bio {
+    color: var(--text-light);
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+/* --- FOOTER --- */
+footer {
+    padding: 60px 5%;
+    background: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-column h3 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    max-width: 400px;
+}
+
+/* --- FORM STYLES (For Contact Page) --- */
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: var(--bg-grey);
+}
